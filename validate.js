@@ -21,6 +21,9 @@ exports.handler = (event, context, callback) => {
             body: JSON.stringify({
                 message: "Validation failed"
             }),
+	    headers: {
+                'Access-Control-Allow-Origin': '*'
+            }
         };
     }
     
