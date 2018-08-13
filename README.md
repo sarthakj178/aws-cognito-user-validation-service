@@ -4,7 +4,7 @@ NodeJS back-end service to validate the authenticity of a user who signed in via
 # Hosting
 Hosted on [AWS API Gateway](https://aws.amazon.com/api-gateway/) integrated with [AWS Lambda](https://aws.amazon.com/lambda/).
 * [Ping GET API](https://api.sarthakj178.com/apiPing) - This API will succeed without any authentication tokens.
-* [Validate POST API](https://api.sarthakj178.com/validate) - This API will fail unless a valid sj-auth-token header is included. This can be fetched if you sign-up and sigin-in at this [sample front-end application](http://sarthakj178.com/aws-cognito-authn/#/f1/dashboard)
+* [Validate POST API](https://api.sarthakj178.com/validate) - This API will fail unless a valid sj-auth-token header is included. This can be fetched if you sign-up and sigin-in at this [sample front-end application](https://sarthakj178.com/aws-cognito-authn/f1/dashboard)
 
 # Service description
 This service accepts Authentication Tokens as part of the request and determines the properties of the user corresponding to these tokens. 
