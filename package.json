@@ -1,0 +1,23 @@
+{
+  "name": "aws-cognito-user-validation-service",
+  "version": "1.0.0",
+  "description": "NodeJS back-end service to validate the authenticity of a user who signed in via [AWS Cognito](https://aws.amazon.com/cognito/). This is a sample service to demonstrate how we can secure access to our back-end services based on the authentication tokens received from Cognito.",
+  "main": "ping.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakj178/aws-cognito-user-validation-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthakj178/aws-cognito-user-validation-service/issues"
+  },
+  "homepage": "https://github.com/sarthakj178/aws-cognito-user-validation-service#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "jwks-rsa": "^1.3.0"
+  }
+}
